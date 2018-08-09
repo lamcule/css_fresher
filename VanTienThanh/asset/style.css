@@ -1,0 +1,322 @@
+/*login form*/
+/*html,body{
+	height: 100%;
+}*/
+html,body,.contentwidth{
+	height: 100%;
+}
+body{
+	background-image: url("../images/mian-bg2.gif");
+}
+/*page not found*/
+.pagenotfound__content{
+	text-align: center;
+}
+.pagenotfound__content h1{
+	font-weight: bold;
+	color: #fff;
+}
+.pagenotfound__content a{
+	color: #00a077;
+}
+/*login*/
+.loginform{
+	background-color: #303030;
+	padding: 1rem;
+}
+.loginform label{
+	color: #fff;
+}
+.loginform button{
+	background-color: #375a7f;
+	border: unset;
+}
+.form-header{
+	padding: 0 1rem;
+	background-color: #444;
+}
+.form-header p{
+	color: #fff;
+	font-weight: bold;
+	padding: 0.5rem 0;
+	margin: 0;
+
+}
+/*left column*/
+	/*+ sidebar*/
+.sidebar--size{
+	width: 130px;
+	height: 63px;
+}
+#sidebar--schedule{
+	background-image: url("../images/schedule.gif");
+}
+#sidebar--schedule:hover{
+	background-image: url("../images/schedule-over.gif");
+}
+#sidebar--reserve{
+	background-image: url("../images/reserve.gif");
+}
+#sidebar--reserve:hover{
+	background-image: url("../images/reserve-over.gif");
+}
+#sidebar--setup{
+	background-image: url(../images/setup.gif);
+}
+#sidebar--setup:hover{
+	background-image: url(../images/setup-over.gif);	
+}
+#sidebar--room{
+	background-image: url("../images/room.gif");	
+}
+#sidebar--room:hover{
+	background-image: url("../images/room-over.gif");
+}
+#sidebar--manual{
+	background-image: url("../images/manual_icon_white.gif");
+}
+#sidebar--manual:hover{
+	background-image: url("../images/manual_icon.gif");
+}
+#sidebar--top1{
+	background-image: url("../images/top1.gif");
+}	
+#sidebar--top1:hover{
+	background-image: url("../images/top2.gif");	
+}
+#sidebar--logout{
+	background-image: url("../images/logout.gif");
+}
+#sidebar--logout:hover{
+	background-image: url("../images/logout-over.gif");
+}
+.left{
+	float: left;
+	width: 208px;
+	height: 100%;
+	position: fixed;
+}
+.sidebar{
+	position: absolute;
+	top:40px;
+	bottom: 0;
+	left: 0;
+	width: 208px;
+	background-color: #000;
+	height: 100%;
+}
+.sidebar--ul-style li{
+	list-style-type: none;
+}
+.sidebar--ul-style a{
+	width: 100%
+	height: 100%;
+}
+.btn--leftSidebar{
+	padding-left: 42px !important;
+}
+.btn--leftSidebar button{
+	background-color: unset;
+	color: #007c5b;
+	border: unset;
+}
+.logout{
+	margin-top: 50px;
+}
+/*right column*/
+.right{
+	margin-left: 208px;
+}
+.nav--style{
+	padding: 0 !important;
+}
+.navBackground{
+	background-color: #dedede;
+	padding: 1px 15px !important;
+}
+/*content unserlist*/
+.txt--userlist-text{
+	text-align: center;
+	color: #fff;
+}
+.item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 160px;
+	padding: 30px;
+	margin: 2%;
+	background: #303030;
+	border-radius: 2px;
+	min-width: 150px;
+}
+.item i{
+	color: #fff;
+}
+.row{
+	display: flex;
+	flex-wrap:  wrap;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+
+}
+/*appointment */
+.btn--appointment-style{
+	background-color: #375a7f;
+	color: #fff;
+	margin:0 15px;
+	padding-left: 1.75rem !important;
+	padding-right: 1.75rem !important;
+}
+.buttonGroup{
+	margin: 15px 0;
+}
+.btn--appointment-inform-style{
+	background-color: #303030;
+	color: #fff;
+	padding-left: 2.75rem !important;
+	padding-right: 2.75rem !important;
+	
+}
+.appointment-form-style{
+	background-color: #222222;
+	padding:0.725rem;
+	margin-top: 10px;
+}
+.appointment-form-style label{
+	color: #fff;
+}
+.appointment-form-style .btn--appointment-submit-style{
+	background-color: #00bc8c;
+	color: #fff;
+	border: unset;
+}
+.form-control{
+	height: calc(2.25rem) !important;
+}
+.right #input--style{
+	margin-bottom: 0 !important;
+}
+/*setup page*/
+.background-setup-button{
+	background-image: url("../images/login-bg.gif") ;
+	background-repeat: no-repeat;
+	width: 517px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 25px 0;
+	margin: 3rem 3rem;
+}
+.background-setup-button img{
+	padding: 5px 10px;
+}
+.setup__content{
+	justify-content: unset !important;
+}
+/*user list*/
+.userlist__table,th,tr,td{
+	border: 1px solid gray;
+	text-align: center;
+	padding: 5px;
+}
+.userlist__table{
+	background-color: #303030;
+	color: #fff;
+
+}
+.table--header-size{
+	width: 85px;
+}
+.btn--table-header{
+	padding: 0;
+	border-radius: 3px;
+	/*border: unset;*/
+}
+.table--input-size{
+	width: 50px;
+	text-align: center;
+	margin-left: 10px;
+}
+.table__icon-edit{
+	background-color: #444444;
+	padding: 5px;
+	border-radius: 3px;
+}
+.table__icon-trash{
+	background-color: #e74c3b;
+	padding: 5px;
+	border-radius: 3px;
+}
+.userlist__row-style{
+	margin: 15px 0;
+}
+/*appointment page*/
+.appointment__content-left{
+	width: 15%;
+	margin: 2%;
+	min-width: 150px
+}
+.checkbox--header{
+	background-color: #444444;
+	color: #fff;
+}
+.checkbox--body{
+	background-color: #303030;
+	color: #fff;
+}
+
+.appointment__content-right{
+	
+	min-width: 150px;
+	background-color: #303030;
+	width: 80%;
+	min-width: 520px;
+	height: 100%;
+}
+.appointmeni__content-display{
+	justify-content: space-between !important;
+	align-items: flex-start;
+	height: 94%;
+	margin-top: 0.4%;
+}
+.appointment__table-header{
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 10px;
+}
+.appointment__table-header p{
+	margin: 0;
+	color: #fff;
+	font-size: 30px;
+}
+.appointment__table-header button{
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.appointment__table-content{
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	margin: 0 10px;
+}
+.appointment__table-content table{
+	width: 100%;
+}
+.appointment__table-content td{
+	border: none;
+	text-align: left;
+	color: #fff;
+}
+.appointment__table-firstcl{
+	width: 20%
+}
+.appointment__table-scl{
+	width: 60%;
+}
+.btn-appointment-style{
+	color: #000;
+	background-color: #fff;
+}
