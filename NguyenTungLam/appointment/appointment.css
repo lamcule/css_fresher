@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+body{
+	box-sizing: border-box;
+	background-image: url(../images/mian-bg2.gif);
+	background-repeat: repeat;
+    height: 788px;
+
+}
+.body{
+	height: 100%;
+}
+/*sidebar*/
+.sidebar{
+	width: 208px;
+	background-color: #000;
+	position: fixed;
+	bottom: 0;
+	top: 0;	
+}
+.sidebar--logo{
+	/*position: fixed;*/
+}
+.sidebar--menu{
+	
+}
+.sidebar--menu img{
+	padding: 0 35px;
+}
+#img--padding{
+	padding-top: 40px;
+}
+/*menu*/
+.right{
+	position: absolute;
+	right: 0;
+	left: 208px;
+	height: 100%;
+}
+.menu{
+	background-color: #e3e3e3;
+	height: 6%;
+	line-height: 40px;
+}
+#menu--text-red{
+	color: red;
+	padding-left: 20px;
+}
+.menu a{
+	text-decoration: none;
+	color: #000;
+}
+/*content*/
+.content{
+	height: 94%;
+	padding-top: 20px;
+}
+.room{
+	background-color: #303030;
+	color: white;
+}
+.room ul{
+	width: 100%;
+	list-style-type: none;
+	margin: 20px 0;
+
+}
+.room--title{
+	background-color: #444444;
+	height: 40px;
+	line-height: 40px;	
+}
+/*content header*/
+.content-main{
+	background-color: #303030;
+	color: #fff;
+	height: 100%;
+
+}
+.content--head{
+	height: 8%;
+	padding-top: 5px;
+}
+.content--head ul{
+	color: #000;
+	background-color: #fff;
+	list-style-type: none;
+	display: inline-block;
+	border-radius: 2px;
+	text-align: center;
+}
+.content--head ul li{
+	float: left;
+	padding: 0 3px;
+}
+.content--head ul li:hover{
+	background-color: #bcbcbc;
+}
+.content--head-btn{
+	height: 100%;
+}
+.btn--group-left{
+	height: 20px;
+	width: 100%;
+}
+.content-main{
+	border-right: 1px solid #fff;
+}
+.content-main h4{
+	text-align: center;
+}
+.content--head-left li:last-child{
+	background-color: #bcbcbc;
+}
+.content-table{
+	/*position: relative;*/
+	border: 1px solid #fff;
+	border-bottom: none;
+	height: 92%;
+}
+.content-table table {
+    border-collapse: collapse;
+    width: 100%;
+    /*position: absolute;*/
+/*	bottom: 0;*/
+}
+
+.content-table th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.content-table .row-last td{
+	border-bottom: none;
+}
+.col-first, .col-last{
+	width: 20%;
+
+}
+.content-table .col-last{
+	text-align: right;
+}
+@media screen and (max-width: 768px) {
+	.content--head{
+		height: 20%;
+	}
+}

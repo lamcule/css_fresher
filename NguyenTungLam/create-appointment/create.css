@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+body{
+	box-sizing: border-box;
+	background-image: url(../images/mian-bg2.gif);
+	background-repeat: repeat;
+
+}
+html, body, .body{
+	height: 100%;
+}
+/*sidebar*/
+.sidebar{
+	width: 208px;
+	background-color: #000;
+/*	max-height: 788px;*/
+	position: fixed;
+	bottom: 0;
+	top: 0;	
+	height: 100%;
+}
+.sidebar--logo{
+	/*position: fixed;*/
+}
+.sidebar--menu{
+	
+}
+.sidebar--menu img{
+	padding: 0 35px;
+}
+#img--padding{
+	padding-top: 40px;
+}
+/*menu*/
+.right{
+	position: absolute;
+	right: 0;
+	left: 208px;
+}
+.menu{
+	background-color: #e3e3e3;
+	height: 40px;
+	line-height: 40px;
+}
+#menu--text-red{
+	color: red;
+	padding-left: 20px;
+}
+.menu a{
+	text-decoration: none;
+	color: #000;
+}
+/*content*/
+.content--menu{
+	height: 30px;
+	margin: auto;
+	margin-top: 20px;
+}
+.content--menu ul{
+	margin: auto;
+	list-style-type: none;
+	color: #fff;
+	height: 100%;
+
+}
+.content--menu ul li{
+	float: left;
+	text-align: center;
+}
+.content--menu ul li:hover{
+	background-color: #325a7d;
+	border-radius: 4px;
+}
+.content--form{
+	background-color: #222222;
+	color: #fff;
+	margin-top: 20px;
+}
+.content--form form{
+	padding: 10px 0;
+}
+.btn-success{
+	float: right;
+}
+input[type=radio]{
+	margin-left: 20px;
+}
+.call{
+	list-style-type: none;
+	display: inline-block;
+	width: 100%;	
+
+}
+.call-a{
+	width: 30%;
+	margin-left: 5%;
+	color: #fff;
+	float: left;
+	background-color: #303030;
+}
+.call-a:first-child{
+	margin-left: 0;
+}
+.btn-design{
+	background-color: #444444;
+	color: #fff;
+}
+@media only screen and (max-width: 576px){
+	.call-a{
+		width: 100%;
+		float: none;
+	}
+}

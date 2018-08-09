@@ -1,0 +1,14 @@
+body{
+	background-image: url("../images/mian-bg2.gif");
+	background-repeat: repeat;
+	text-align: center;
+}
+h1{
+	font-size: 70px;
+	color: #fff;
+	margin-top: 100px;
+}
+a{
+	text-decoration: none;
+	color: #00bd90;
+}

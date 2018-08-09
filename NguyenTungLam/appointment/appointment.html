@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="appointment.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-fluid row body">
+		<div class="sidebar">
+			<div class="sidebar--logo">
+				<div class="logo">
+					<a href="../homepage/homepage.html"><img src="../images/navi_logo.gif" alt=""></a>
+				</div>
+				<div class="login">
+					<img src="../images/login.gif" alt="">
+				</div>
+			</div>
+			<div class="sidebar--menu">
+				<ul>
+					<li>
+						<a href="../appointment/appointment.html"><img src="../images/schedule.gif" alt=""></a>
+					</li>
+					<li>
+						<a href="../create-appointment/create.html"><img src="../images/reserve.gif" alt=""></a>
+					</li>
+					<li>
+						<a href="../setup/setup.html"><img src="../images/setup.gif" alt=""></a>
+					</li>
+					<li>
+						<a href="../page-not-found/page.html"><img src="../images/room.gif" alt=""></a>
+					</li>
+					<li>
+						<a href="#top"><img src="../images/manual_icon_white.gif" alt=""></a>
+					</li>
+					<li id="img--padding">
+						<a href="#top"><img src="../images/top1.gif" alt=""></a>
+					</li>
+					<li>
+						<a href="../login/login.html"><img src="../images/logout.gif" alt=""></a>
+					</li>	
+				</ul>
+
+			</div>
+		</div>
+		<div class="right">
+			<div class="menu">
+				<div class="col-md-12">
+					<span><a href=""><i class="fas fa-bars"></i></a></span>
+					<span id="menu--text-red">Schedule</span>
+				</div>
+			</div>
+			<div class="content container-fluid row">
+				<div class="content-left col-md-2">
+					<div class="calendar">
+						
+					</div>
+					<div class="room">
+						<div>
+							<div class="room--title">
+								<div class="container-fluid">
+									Rooms
+								</div>
+							</div>
+							<ul class="container-fluid">
+								<li>
+									<input type="checkbox" name="" value="">Room1
+								</li>
+								<li><input type="checkbox" name="" value="">Room2</li>
+								<li><input type="checkbox" name="" value="">Room3</li>
+								<li><input type="checkbox" name="" value="">Room4</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="content-main col-md-10">
+					<div class="content--head row">
+						<div class="col-md-2 content--head-left">
+							<ul>
+								<li>prev</li>
+								<li>next</li>
+								<li>today</li>	
+							</ul>
+						</div>
+						<div class="col-md-8 title-name">
+							<h4>May 2018</h4>
+						</div>
+						<div class="col-md-2">
+							<ul>
+								<li>month</li>
+								<li>week</li>
+								<li>day</li>
+								<li>list</li>
+							</ul>
+						</div>
+					</div>
+					<div class="content-table">
+						<table>
+						  <tr>
+						    <th class="col-first">May 2, 2018</th>
+						    <th></th>
+						    <th class="col-last">Wednesday</th>
+						  </tr>
+						  <tr>
+						    <td>2:21am - 5:21am</td>
+						    <td>
+						    	<input type="radio" name="radio" value="radio1" placeholder="">
+						    	test creating reservation
+						    </td>
+						    <td></td>
+						  </tr>
+						  <tr>
+						    <td>3:35am</td>
+						    <td>
+						    	<input type="radio" name="radio" value="radio2" placeholder="">
+						    	this is test appointment
+						    </td>
+						    <td></td>
+						  </tr>
+						  <tr>
+						    <td>May 3, 2018</td>
+						    <td></td>
+						    <td class="col-last">Thursday</td>
+						  </tr>
+						  <tr class="row-last">
+						    <td>3:28am-6:28am</td>
+						    <td>
+						    	<input type="radio" name="radio" value="radio3" placeholder="">
+						    	test new appointment
+						    </td>
+						    <td></td>
+						  </tr>
+						</table>
+
+					</div>
+				</div>
+			</div>					
+		</div>
+	</div>
+</body>
+</html>
