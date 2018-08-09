@@ -1,0 +1,254 @@
+	html *{
+		margin: 0;
+		padding: 0;
+		color: #fff;
+		font-size: 18px;
+		font-family: Calibri;}
+
+	html, body{
+		width: 100vw;
+		height: 100%;}
+	body{
+		background-image: url("../images/mian-bg2.gif");}	
+	.clearfix{
+		clear: both;
+		overflow: hidden;}
+
+	.container{
+		height: 100%;}
+		
+	.left{
+		float: left;
+		width: 20%;}
+		
+	.right{
+		float: right;
+		width: 80%;}
+		
+	.top{
+		width: 100%;
+		height: 6%;
+		min-height: 25px;}
+		
+	.bottom{
+		width: 100%;
+		height: 94%;}
+		
+	.bottom > div, .top>div{
+		height: 100%;}
+		
+/* Logo	*/
+	.logo img{
+		width: 100%;
+		height:100%;}
+		
+
+/* Side-bar -----------------------------------------*/
+	.side-bar{
+		background-color:#A7A7A7;}
+		
+
+	.user{
+		width: 100%;
+		height: 6%;
+		min-height:30px;
+		background-image:url("../images/login.gif");
+		background-size: 100% 100%;}
+
+	.menu{
+		height: 94%;
+		background-color:#000;}
+		
+	/* Side-bar > Menu */
+		.menu-img{
+			width: 60%;
+			height:9%;
+			margin: 0% auto 3%;
+			min-height: 20px;
+		}
+		
+		.menu-img a, .menu-img a div{
+			width: 100%;
+			height: 100%;}
+			
+		#space{
+			margin-bottom: 20%;
+		}
+
+		.img{
+			background-size: 100% 100%;}
+		.img1{
+			background-image: url("../images/schedule.gif");}
+		.img1:hover{
+			background-image: url("../images/schedule-over.gif");}
+		.img2{
+			background-image: url("../images/reserve.gif");}
+		.img2:hover{
+			background-image: url("../images/reserve-over.gif");}
+		.img3{
+			background-image: url("../images/setup.gif");}
+		.img3:hover{
+			background-image: url("../images/setup-over.gif");}
+		.img4{
+			background-image: url("../images/room.gif");}
+		.img4:hover{
+			background-image: url("../images/room-over.gif");}
+		.img5{
+			background-image: url("../images/manual_icon_white.gif");}
+		.img5:hover{
+			background-image: url("../images/manual_icon.gif");}
+		.img6{
+			background-image: url("../images/top1.gif");}
+		.img6:hover{
+			background-image: url("../images/top2.gif");}
+		.img7{
+			background-image: url("../images/logout.gif");}
+		.img7:hover{
+			background-image: url("../images/logout-over.gif");}
+
+			
+		.menu button{
+			background-color: #000;
+			color:#00A97C;
+			border:none;}
+		.en{float:left; width: 50%;}
+		.jp{float:right; width: 50%;}
+
+	
+
+/* Header ------------------------------*/
+
+	.header-area{
+		background-color:#E3E3E3;
+		position: relative;}
+		
+	.header-area a{
+		position: absolute;
+		top: 50%; left: 10px;
+		transform: translateY(-50%);}
+		
+	.header-area .home{
+		left: 40px;
+		text-decoration: none;
+		color: #BB0000;}
+		
+	.header-area i{	
+		color: #747474;}
+		
+
+		
+/* Main -----------------------------*/
+	.main{
+		width: 100%;
+		height: 98%;
+		margin-top: 2%;
+		clear: both;
+		overflow: hidden;}
+		
+	/* Main > date and room	 */
+		.date-and-room{
+			width: 18%;
+			float: left;
+			margin: 0% 1%;}
+		.date{
+			background-color: #212121;
+			margin-bottom: 10%;}
+		.date img{
+			width: 100%;
+			height: auto;}
+		.room{
+			border-radius: 3%;}
+		.room-title, .room-selection{
+			width: 86%;
+			padding: 7%;}
+		.room-title{
+			background-color: #444444;}
+		.room-selection{
+			background-color: #2F2F2F;
+			padding-bottom: 15%;}
+		.select-room{
+			margin-bottom: 5%;}
+			
+	/* Main > Schedule */
+		.schedule{
+			width: 80%;
+			float: right;
+			background-color: #2F2F2F;
+			height: 100%;}
+		.schedule-content{
+			width: 98%;
+			margin: auto;
+			height: 100%;}
+		
+		
+			
+		/* Schedule> Schedule Content Top */
+			.schedule-content-top{
+			padding: 1%;
+			min-height: 60px;
+			text-align: center;
+			width: 98%;
+			height: 12%;}
+			h1{	
+				font-size: 36px;
+				margin-top: 2%;}
+			ul, li{
+				display: inline-block;
+				background: #FFFFFF;
+				margin: 0;
+				}
+			ul{
+				border-radius: 5px;
+				overflow: hidden;}
+			ul li{
+				padding: 5px 7px;}
+				
+			.padding-li{
+				padding: 5px 10px;}
+			.disabled{
+				background-color: #BCBCBC;}
+			ul li a{
+				color: #000;}
+
+			.relative{
+				position: relative;}
+
+
+			.button-group{
+				position: absolute;
+				top: 30%;}
+			.button-group-left{
+				left: 0;}
+			.button-group-right{
+				right: 0;}
+		
+		/* Schedule> Schedule Content Top */
+			.schedule-content-bottom{
+				border: 2px solid #B0B0B0;
+				width: 100%;
+				height: 88%;}
+
+				
+			table{
+				width: 100%;
+				border-collapse: collapse;}	
+			tr{
+				width: 100%;
+				border-top: 1px solid #3F3F3F;}
+			td, th{
+				color: #fff;
+				padding: 8px;
+			}
+			.schedule-content-header, .schedule-content-header th, .schedule-content-detail{
+				width: 100%;}
+			.schedule-content-header th span:nth-child(1){
+				float: left;}
+			.schedule-content-header th span:nth-child(2){
+				float:right;}
+				
+			.schedule-content-detail td:nth-child(1){
+				width: 18%;}
+			.schedule-content-detail td:nth-child(2){
+				width: 2%;}
+			.schedule-content-detail td:nth-child(3){
+				width: 80%;}
