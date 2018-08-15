@@ -12,10 +12,10 @@
 <body>
   <header id="header" class="container">
     <div class="row">
-      <div class="header__logo col-md-6">
+      <div class="header__logo col-lg-6 col-12 col-md-3">
         <p>Author</p>
       </div>
-      <div class="header__menu col-md-6">
+      <div class="header__menu col-lg-6 col-12 col-md-9">
         <ul>
           <a href="#">
             <li>Home</li>
@@ -29,8 +29,8 @@
           <a href="#">
             <li>Team</li>
           </a>
-          <a href="#">
-            <li>Blog</li>
+          <a href="#" class="active">
+            <li class="item--active">Blog</li>
           </a>
           <a href="#">
             <li>Contact</li>
@@ -47,27 +47,27 @@
   <!-- end banner -->
   <!-- content ,sidebar -->
   <div class="container">
-    <div class="row">
+    <div class="row unset-display">
       <!-- content -->
-      <div class="col-md-9 content">
+      <div class="col-md-9 col-12 col-sm-10 col-xs-12 content">
         <div class="row main-content">
           <!-- post date -->
-          <div class="col-md-2 post__date">
+          <div class="col-md-2 col-sm-2 col-xs-2 post__date">
             <p>22</p>
             <p id="post-date__month">Sep</p>
             <p>2013</p>
           </div>
           <!-- end post date -->
           <!-- post content -->
-          <div class="col-md-10 post">
+          <div class="col-md-10 col-sm-10 col-xs-10 post">
              <div class="post__title">
                <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
              </div>
              <div class="row post__content">
-               <div class="col-md-5">
+               <div class="col-md-5 col-sm-12 col-xs-5 col-12">
                  <img src="images/img1.png" class="rounded float-left post__img" alt="...">
                </div>
-               <div class="col-md-7 post__description">
+               <div class="col-md-7 col-sm-12 col-12 col-xs-7 post__description">
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit libero id totam necessitatibus eligendi nesciunt ipsam sint ipsum, dicta, distinctio numquam culpa, consequuntur, unde minus dolores quisquam</p>
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, impedit!</p>
                  <a href="" class="text__color--violet">Read more></a>
@@ -112,7 +112,7 @@
              </div>
              <div class="row post__content">
                <div class="col-md-5">
-                 <img src="images/img1.png" class="rounded float-left post__img" alt="...">
+                 <img src="images/img_moutain.png" class="rounded float-left post__img" alt="...">
                </div>
                <div class="col-md-7 post__description">
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit libero id totam necessitatibus eligendi nesciunt ipsam sint ipsum, dicta, distinctio numquam culpa, consequuntur, unde minus dolores quisquam.</p>
@@ -159,7 +159,7 @@
              </div>
              <div class="row post__content">
                <div class="col-md-5">
-                 <img src="images/img1.png" class="rounded float-left post__img" alt="...">
+                 <img src="images/img_couple.png" class="rounded float-left post__img" alt="...">
                </div>
                <div class="col-md-7 post__description">
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit libero id totam necessitatibus eligendi nesciunt ipsam sint ipsum, dicta, distinctio numquam culpa, consequuntur, unde minus dolores quisquam.</p>
@@ -206,7 +206,7 @@
              </div>
              <div class="row post__content">
                <div class="col-md-5">
-                 <img src="images/img1.png" class="rounded float-left post__img" alt="...">
+                 <img src="images/Layer 35.png" class="rounded float-left post__img" alt="...">
                </div>
                <div class="col-md-7 post__description">
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit libero id totam necessitatibus eligendi nesciunt ipsam sint ipsum, dicta, distinctio numquam culpa, consequuntur, unde minus dolores quisquam.</p>
@@ -240,12 +240,12 @@
         </div>
         <!-- pagination -->
         <div class="row paginate">
-          <div class="col-md-2 post__date bg-light"></div>
+          <div class="col-md-2 post__date bg-white"></div>
           <div class="col-md-10 post text-center text-secondary">
             <nav aria-label="Page navigation example">
               <ul class="pagination">
                 <li class="page-item text-left">
-                  <a class="page-link border-0 d-flex justify-content-start align-items-center" href="#" aria-label="Previous">
+                  <a class="page-link rounded-circle border-0 d-flex justify-content-start align-items-center" href="#" aria-label="Previous">
                     <span aria-hidden="true">
                       <i class="fas fa-chevron-left"></i>
                     </span>
@@ -253,29 +253,30 @@
                   </a>
                 </li>
                 <li class="page-item">
-                  <a class="page-link border-0 d-flex justify-content-center align-items-center" href="#">1</a>
+                  <a class="page-link rounded-circle border-0 d-flex justify-content-center align-items-center" href="#">1</a>
                 </li>
                 <li class="page-item">
-                  <a class="page-link border-0 d-flex justify-content-center align-items-center" href="#">2</a></li>
-                <li class="page-item"><a class="page-link border-0 d-flex justify-content-center align-items-center" href="#">3</a>
+                  <a class="page-link rounded-circle border-0 d-flex justify-content-center align-items-center" href="#">2</a></li>
+                <li class="page-item">
+                  <a class="page-link rounded-circle border-0 d-flex justify-content-center align-items-center page-item--active" href="#">3</a>
                 </li>
                 <li class="page-item">
-                  <a class="page-link border-0 d-flex justify-content-center align-items-center" href="#">4</a>
+                  <a class="page-link rounded-circle border-0 d-flex justify-content-center align-items-center" href="#">4</a>
                 </li>
                 <li class="page-item">
-                  <a class="page-link border-0 d-flex justify-content-center align-items-center" href="#">5</a>
+                  <a class="page-link rounded-circle border-0 d-flex justify-content-center align-items-center" href="#">5</a>
                 </li>
                 <li class="page-item">
-                  <a class="page-link border-0 d-flex justify-content-center align-items-center" href="#">6</a>
+                  <a class="page-link rounded-circle border-0 d-flex justify-content-center align-items-center" href="#">6</a>
                 </li>
                 <li class="page-item">
-                  <a class="page-link border-0 d-flex justify-content-center align-items-center" href="#">...</a>
+                  <a class="page-link border-0 bg-white d-flex justify-content-center align-items-center" href="#">...</a>
                 </li>
                 <li class="page-item">
-                  <a class="page-link border-0 d-flex justify-content-center align-items-center" href="#">78</a>
+                  <a class="page-link rounded-circle border-0 d-flex justify-content-center align-items-center" href="#">78</a>
                 </li>
                 <li class="page-item text-right">
-                  <a class="page-link border-0 d-flex justify-content-end align-items-center" href="#" aria-label="Next">
+                  <a class="page-link rounded-circle border-0 d-flex justify-content-end align-items-center" href="#" aria-label="Next">
                     <span aria-hidden="true">
                       <i class="fas fa-chevron-right"></i>
                     </span>
@@ -289,10 +290,10 @@
       </div>
       <!-- end content -->
       <!-- sidebar -->
-      <div class="col-md-3 sidebar">
+      <div class="col-md-3 col-sm-3 col-xs-12 sidebar">
         <div class="input--search">
           <div class="input-group mb-3">
-            <input type="text" class="form-control input--no-border" placeholder="Search" aria-label="" aria-describedby="basic-addon2">
+            <input type="text" class="form-control border-right-0" placeholder="Search" aria-label="" aria-describedby="basic-addon2">
             <div class="input-group-append">
               <button class="btn btn-outline-secondary btn-search" type="button" id="button-addon2">
                 <i class="fas fa-search text-secondary"></i>
@@ -317,7 +318,7 @@
           <div class="sidebar--margin-top">
             <input type="text" class="form-control input--no-border input--email" name="" value="" placeholder="Enter Your email">
             <div class="btn-subcrible">
-              <button type="submit-email" class="btn btn-info">Subcribe</button>
+              <button type="submit" class="btn btn-email text-white">Subcribe</button>
             </div>
           </div>
         </div>
@@ -330,7 +331,13 @@
               <a href="#">
                 <li class="list-group-item ">
                   <i class="fas fa-chevron-right"></i>
-                  <span>A simple primary list lorem</span>               
+                  <span>A simple primary list lorem</span>
+                  <ul class="sub-item">
+                    <li>
+                      <i class="fas fa-chevron-right text-white"></i>
+                      <span>A simple primary list lorem</span>
+                    </li>
+                  </ul>               
                 </li>               
               </a>
               <a href="#">
@@ -346,12 +353,6 @@
                 </li>               
               </a>
               </li>
-              <a href="#">
-                <li class="list-group-item ">
-                  <i class="fas fa-chevron-right"></i>
-                  <span>A simple primary list lorem</span>               
-                </li>               
-              </a>
               <a href="#">
                 <li class="list-group-item ">
                   <i class="fas fa-chevron-right"></i>
@@ -371,7 +372,7 @@
         <!-- popular post -->
         <div class="popular-post sidebar--margin-top">
           <p class="sidebar__title">Popular Post</p>
-          <img src="images/img1.png" class="post__img" alt="">
+          <img src="images/Layer 37.png" class="post__img" alt="">
           <p class="popular-post__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, voluptates.</p>
           <div class="popular--date">
             <p>Sep 26,2013</p>
@@ -387,19 +388,27 @@
           <ul>
               <li class="recent-post__item">
                 <i class="fas fa-circle"></i>
-                <span>Lorem ipsum dolor sit amet.</span>
+                <span>
+                  <a href="#" class="text-body">Lorem ipsum dolor sit amet.</a>
+                </span>
               </li>
               <li class="recent-post__item">
                 <i class="fas fa-circle"></i>
-                <span>Lorem ipsum dolor sit amet.</span>
+                <span>
+                  <a href="#" class="text-body">Lorem ipsum dolor sit amet.</a>
+                </span>
               </li>
               <li class="recent-post__item">
                 <i class="fas fa-circle"></i>
-                <span>Lorem ipsum dolor sit amet.</span>
+                <span>
+                  <a href="#" class="text-body">Lorem ipsum dolor sit amet.</a>
+                </span>
               </li>
               <li class="recent-post__item">
                 <i class="fas fa-circle"></i>
-                <span>Lorem ipsum dolor sit amet.</span>
+                <span>
+                  <a href="#" class="text-body">Lorem ipsum dolor sit amet.</a>
+                </span>
               </li>
           </ul>
         </div>
@@ -420,7 +429,7 @@
               <a href="#">
                 <span>multipupose</span>
               </a>
-              <a href="#">
+              <a href="#" class="tags__item--active">
                 <span>creative</span>
               </a>
             </div>
